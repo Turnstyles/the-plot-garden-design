@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="228.5271"
+   height="285.7334"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="sequence.svg">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4059">
+      <rect
+         style="fill:#a40000;fill-opacity:1;stroke:none"
+         id="rect4061"
+         width="297.48993"
+         height="107.58125"
+         x="1582.4797"
+         y="1767.8806" />
+    </clipPath>
+    <filter
+       id="filter4821"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4823"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4825"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4827"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4829"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4831"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4833"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4835"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4837"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4839"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4841"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4843"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="417.11661"
+     inkscape:cy="88.712655"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="917"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-392.34158,-1495.1729)">
+    <rect
+       y="1543.917"
+       x="403.93909"
+       height="235.98341"
+       width="174.88646"
+       id="rect3763"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.56033707px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="526.08813"
+       y="1567.7546"
+       id="text6305"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6307"
+         x="526.08813"
+         y="1567.7546"
+         style="font-size:11.26215076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed, '">• A D T O</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.69962025px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="422.18546"
+       y="1566.0919"
+       id="text6317"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6319"
+         x="422.18546"
+         y="1566.0919"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Orbitron;-inkscape-font-specification:Orbitron Medium">L</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.03240204px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="446.52142"
+       y="1761.2811"
+       id="text8669"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="446.52142"
+         y="1761.2811"
+         style="font-size:13.13917542px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Essays1743;-inkscape-font-specification:Essays1743 Medium"
+         id="tspan17435">An example Card</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="391.16385"
+       y="1520.0044"
+       id="text4769"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="391.16385"
+         y="1520.0044"
+         id="tspan4773"
+         style="font-size:12px">Identity Code</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4777"
+       y="1524.6726"
+       x="544.47528"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:12px"
+         id="tspan4779"
+         y="1524.6726"
+         x="544.47528"
+         sodipodi:role="line">Series Code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="504.02103"
+       y="1504.29"
+       id="text4785"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="504.02103"
+         y="1504.29"
+         id="tspan4787"
+         style="font-size:12px">Pace Card Indicator</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 452.85714,243.99922 0,23.44889"
+       id="path4789"
+       inkscape:connector-curvature="0"
+       transform="translate(-26.693281,1281.7194)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 527.50578,1508.5758 0,43.5714"
+       id="path4791"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 593.57143,246.14208 578.19895,272.768"
+       id="path4793"
+       inkscape:connector-curvature="0"
+       transform="translate(-26.693281,1281.7194)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 538.12597,1554.3334 19.21392,0"
+       id="path4797"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.96226269;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4873"
+       width="84.143356"
+       height="113.53902"
+       x="449.35211"
+       y="1617.7528" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4875"
+       y="1629.2218"
+       x="508.12189"
+       style="font-size:7.96769714px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:5.41857386px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed, '"
+         y="1629.2218"
+         x="508.12189"
+         id="tspan4877"
+         sodipodi:role="line">• A D T O</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4879"
+       y="1628.4218"
+       x="458.13107"
+       style="font-size:7.07244825px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Orbitron;-inkscape-font-specification:Orbitron Medium"
+         y="1628.4218"
+         x="458.13107"
+         id="tspan4881"
+         sodipodi:role="line">L</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4883"
+       y="1722.3334"
+       x="469.83984"
+       style="font-size:14.4495306px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan4885"
+         style="font-size:6.3216691px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Essays1743;-inkscape-font-specification:Essays1743 Medium"
+         y="1722.3334"
+         x="469.83984"
+         sodipodi:role="line">An example Card</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4887"
+       y="1606.2476"
+       x="443.20563"
+       style="font-size:19.24525452px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:5.77357674px"
+         id="tspan4889"
+         y="1606.2476"
+         x="443.20563"
+         sodipodi:role="line">Identity Code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.24525452px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="516.96851"
+       y="1608.4937"
+       id="text4891"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="516.96851"
+         y="1608.4937"
+         id="tspan4893"
+         style="font-size:5.77357674px">Series Code</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4895"
+       y="1598.687"
+       x="497.50473"
+       style="font-size:19.24525452px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:5.77357674px"
+         id="tspan4897"
+         y="1598.687"
+         x="497.50473"
+         sodipodi:role="line">Pace Card Indicator</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4899"
+       d="m 460.04517,1608.9968 0,11.282"
+       style="fill:none;stroke:#000000;stroke-width:0.48113135px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4901"
+       d="m 508.80395,1600.7489 0,20.9635"
+       style="fill:none;stroke:#000000;stroke-width:0.48113135px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4903"
+       d="m 527.74723,1610.0278 -7.39618,12.8106"
+       style="fill:none;stroke:#000000;stroke-width:0.48113135px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4905"
+       d="m 513.91366,1622.7642 9.24442,0"
+       style="fill:none;stroke:#000000;stroke-width:0.48113135px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       y="1648.5562"
+       x="472.23901"
+       height="56.006893"
+       width="41.506508"
+       id="rect4907"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.47466806;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.93033123px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="501.22916"
+       y="1654.2135"
+       id="text4909"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4911"
+         x="501.22916"
+         y="1654.2135"
+         style="font-size:2.67289162px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed, '">• A D T O</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.48872018px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="476.56952"
+       y="1653.8188"
+       id="text4913"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4915"
+         x="476.56952"
+         y="1653.8188"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Orbitron;-inkscape-font-specification:Orbitron Medium">L</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.1277113px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="482.34525"
+       y="1700.1439"
+       id="text4917"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="482.34525"
+         y="1700.1439"
+         style="font-size:3.11837339px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Essays1743;-inkscape-font-specification:Essays1743 Medium"
+         id="tspan4919">An example Card</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.49336147px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="469.20703"
+       y="1642.8807"
+       id="text4921"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="469.20703"
+         y="1642.8807"
+         id="tspan4923"
+         style="font-size:2.84800863px">Identity Code</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4925"
+       y="1643.9886"
+       x="505.59305"
+       style="font-size:9.49336147px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:2.84800863px"
+         id="tspan4927"
+         y="1643.9886"
+         x="505.59305"
+         sodipodi:role="line">Series Code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.49336147px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="495.99188"
+       y="1639.1512"
+       id="text4929"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="495.99188"
+         y="1639.1512"
+         id="tspan4931"
+         style="font-size:2.84800863px">Pace Card Indicator</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.23733403px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 477.5137,1644.2368 0,5.5652"
+       id="path4933"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.23733403px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 501.56559,1640.1683 0,10.3409"
+       id="path4935"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.23733403px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 510.90999,1644.7454 -3.64841,6.3192"
+       id="path4937"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.23733403px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 504.08612,1651.028 4.56012,0"
+       id="path4939"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26212686;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4941"
+       width="22.921219"
+       height="30.928795"
+       x="480.29227"
+       y="1663.5582" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4943"
+       y="1666.6825"
+       x="496.30154"
+       style="font-size:2.1704545px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:1.4760561px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed, '"
+         y="1666.6825"
+         x="496.30154"
+         id="tspan4945"
+         sodipodi:role="line">• A D T O</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4947"
+       y="1666.4645"
+       x="482.68372"
+       style="font-size:1.92658269px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Orbitron;-inkscape-font-specification:Orbitron Medium"
+         y="1666.4645"
+         x="482.68372"
+         id="tspan4949"
+         sodipodi:role="line">L</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4951"
+       y="1692.0468"
+       x="485.87323"
+       style="font-size:3.93614984px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan4953"
+         style="font-size:1.72206533px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Essays1743;-inkscape-font-specification:Essays1743 Medium"
+         y="1692.0468"
+         x="485.87323"
+         sodipodi:role="line">An example Card</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4955"
+       y="1660.4242"
+       x="478.61789"
+       style="font-size:5.2425375px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:1.5727613px"
+         id="tspan4957"
+         y="1660.4242"
+         x="478.61789"
+         sodipodi:role="line">Identity Code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.2425375px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="498.71143"
+       y="1661.036"
+       id="text4959"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="498.71143"
+         y="1661.036"
+         id="tspan4961"
+         style="font-size:1.5727613px">Series Code</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4963"
+       y="1658.3646"
+       x="493.40936"
+       style="font-size:5.2425375px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:1.5727613px"
+         id="tspan4965"
+         y="1658.3646"
+         x="493.40936"
+         sodipodi:role="line">Pace Card Indicator</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4967"
+       d="m 483.20511,1661.173 0,3.0733"
+       style="fill:none;stroke:#000000;stroke-width:0.13106343px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4969"
+       d="m 496.48733,1658.9262 0,5.7106"
+       style="fill:none;stroke:#000000;stroke-width:0.13106343px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4971"
+       d="m 501.64761,1661.4539 -2.01477,3.4896"
+       style="fill:none;stroke:#000000;stroke-width:0.13106343px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4973"
+       d="m 497.87925,1664.9233 2.51824,0"
+       style="fill:none;stroke:#000000;stroke-width:0.13106343px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       y="1670.7445"
+       x="485.92337"
+       height="14.701802"
+       width="10.895453"
+       id="rect4975"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.12460031;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.03171146px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="493.53326"
+       y="1672.2295"
+       id="text4977"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4979"
+         x="493.53326"
+         y="1672.2295"
+         style="font-size:0.70163369px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed, '">• A D T O</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.91578859px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="487.06012"
+       y="1672.1259"
+       id="text4981"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4983"
+         x="487.06012"
+         y="1672.1259"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Orbitron;-inkscape-font-specification:Orbitron Medium">L</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.8710233px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="488.57623"
+       y="1684.2863"
+       id="text4985"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="488.57623"
+         y="1684.2863"
+         style="font-size:0.81857258px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Essays1743;-inkscape-font-specification:Essays1743 Medium"
+         id="tspan4987">An example Card</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.4920063px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="485.12747"
+       y="1669.2548"
+       id="text4989"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="485.12747"
+         y="1669.2548"
+         id="tspan4991"
+         style="font-size:0.74760193px">Identity Code</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4993"
+       y="1669.5455"
+       x="494.6788"
+       style="font-size:2.4920063px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:0.74760193px"
+         id="tspan4995"
+         y="1669.5455"
+         x="494.6788"
+         sodipodi:role="line">Series Code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.4920063px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="492.15848"
+       y="1668.2758"
+       id="text4997"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="492.15848"
+         y="1668.2758"
+         id="tspan4999"
+         style="font-size:0.74760193px">Pace Card Indicator</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.06230015px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 487.30795,1669.6107 0,1.4609"
+       id="path5001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.06230015px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 493.62156,1668.5427 0,2.7145"
+       id="path5003"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.06230015px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 496.07447,1669.7442 -0.95771,1.6588"
+       id="path5005"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.06230015px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 494.2832,1671.3934 1.19703,0"
+       id="path5007"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.03460542;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5009"
+       width="3.0260096"
+       height="4.0831518"
+       x="490.54309"
+       y="1674.9797" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5011"
+       y="1675.3922"
+       x="492.65659"
+       style="font-size:0.28653866px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:0.1948657px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu Condensed;-inkscape-font-specification:'Ubuntu Condensed, '"
+         y="1675.3922"
+         x="492.65659"
+         id="tspan5013"
+         sodipodi:role="line">• A D T O</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5015"
+       y="1675.3634"
+       x="490.8588"
+       style="font-size:0.25434324px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Orbitron;-inkscape-font-specification:Orbitron Medium"
+         y="1675.3634"
+         x="490.8588"
+         id="tspan5017"
+         sodipodi:role="line">L</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5019"
+       y="1678.7407"
+       x="491.27985"
+       style="font-size:0.51964188px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan5021"
+         style="font-size:0.22734331px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Essays1743;-inkscape-font-specification:Essays1743 Medium"
+         y="1678.7407"
+         x="491.27985"
+         sodipodi:role="line">An example Card</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5023"
+       y="1674.5659"
+       x="490.32202"
+       style="font-size:0.69210839px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:0.20763253px"
+         id="tspan5025"
+         y="1674.5659"
+         x="490.32202"
+         sodipodi:role="line">Identity Code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.69210839px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="492.97473"
+       y="1674.6467"
+       id="text5027"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="492.97473"
+         y="1674.6467"
+         id="tspan5029"
+         style="font-size:0.20763253px">Series Code</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5031"
+       y="1674.2941"
+       x="492.27475"
+       style="font-size:0.69210839px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:0.20763253px"
+         id="tspan5033"
+         y="1674.2941"
+         x="492.27475"
+         sodipodi:role="line">Pace Card Indicator</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path5035"
+       d="m 490.92761,1674.6648 0,0.4058"
+       style="fill:none;stroke:#000000;stroke-width:0.01730271px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5037"
+       d="m 492.6811,1674.3682 0,0.7539"
+       style="fill:none;stroke:#000000;stroke-width:0.01730271px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5039"
+       d="m 493.36235,1674.7019 -0.26599,0.4607"
+       style="fill:none;stroke:#000000;stroke-width:0.01730271px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path5041"
+       d="m 492.86485,1675.1599 0.33246,0"
+       style="fill:none;stroke:#000000;stroke-width:0.01730271px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+Gorey TTF
+
+A typeface based on the hand lettering of Edward Gorey. 
+
+Version 1.1
+10/25/05
+
+This file was built over the course of an afternoon in 2001 by Dame Hex. Currently there are about 85 characters: full uppercase and lowercase registers, numerals and basic punctuation, math, and internet symbols. If updates exist, they are at http://www.emeraldrain.com/fm/content/goreyttf.html
+
+A kind soul named Daniel Steinberg has reconditioned the file to work properly with OSX. Thanks!
+
+Any comments/suggestions, please feel free to contact dame@emeraldrain.com
+
+Please distribute only as part of this .zip file. Thanks!
