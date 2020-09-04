@@ -15,3 +15,16 @@ or add other locations to explore
 We will probably experiment with different kinds of story elements, card types 
 and narrative arcs created with allowable sequences of them.
 
+Ducats
+
+Possibly one person pays $10 for a group of 1-4 to play for about 3 months
+eventually the plot comes to a conclusion, but if they want to keep going 
+they can as long as they want but things are naturally a little throttled 
+by the existing content, and artwook, but if they are in full on write mode 
+they can keep going
+
+Eventually new story options, cards, decks and dynamics might come put 
+and they might want to purchase them to start up a new plot in the same story.
+
+Or they might want to start a new story with new characters and pay another $10
+
