@@ -23,8 +23,22 @@ they can as long as they want but things are naturally a little throttled
 by the existing content, and artwook, but if they are in full on write mode 
 they can keep going
 
-Eventually new story options, cards, decks and dynamics might come put 
-and they might want to purchase them to start up a new plot in the same story.
+Eventually new story options, cards, decks and dynamics might come out 
+then they might want to purchase them to start up a new plot in the same story
 
 Or they might want to start a new story with new characters and pay another $10
 
+Todo
+create some draggable character tokens on a map
+create some other map elements; graveyard gate tombstone, mailbox pier   
+a deck of typed cards from dark cults
+tie to the wysiwyg
+a go postgres service on heroku
+register => login => choose character => invite others => play
+
+on a turn you can move, do commands (search, hide), play narrative cards and write 
+
+payment interface
+company  identity and site 
+ 
+ 
