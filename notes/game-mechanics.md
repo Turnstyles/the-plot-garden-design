@@ -8,6 +8,8 @@
 
 - Each card has two phases/two necessary actions: When drawn or played onto the board, it is introduced into the story. When exercised/tapped/removed/played, that element must be resolved.
 
+- Cards have little association tags like in Pellikoi?
+
 - Certain cards pulled or played in the beginning are kept in special board-places as the pillars of the internal and external plot, or something like that. In a madlibby style, they are shoehorned into each scene so that the writer has to mention how they are utilized/affected. Maybe sometimes, randomly, they are skipped! Or maybe more loosely define these two cards as "poles of energy". One is the north magnetic pole, one is the south magnetic pole. This creates a kind of profluence and interactivity but leaves it more open/evocative and has a cool arcane architectural framing.
 
 - “[The writer’s] job is to give readers stress, strain, and pressure. The fact is that readers who hate those things in life love them in fiction..." In favor of a death-like dark cults antagonistic role
