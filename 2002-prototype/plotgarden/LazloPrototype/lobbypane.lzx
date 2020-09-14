@@ -1,0 +1,80 @@
+<library>
+    <!--  ===============   Lobby Pane    ================  -->
+	<class name="lobbypane" extends ="tabpane" text="Lobby" width="${parent.width}" height="${parent.height}" >
+
+                   <view width="${lobbydivider1.x-5}" height="${parent.height}" >
+                       <simplelayout axis="y" spacing="10"/>
+                       <view width="${parent.width}" height="${parent.height-100}" >
+                              <edittext width="${parent.width}" height="${parent.height}"  multiline="true" resizable="true">ok</edittext>
+                       </view>
+                       <view>
+	                           <view >
+    		                       	<simplelayout axis="x" spacing="5" />
+	                                <edittext width="${lobbydivider1.x-85}" height="40" multiline="true" resizable="true">message text</edittext>
+	                           		<button>Send</button>
+	                           </view>	                           
+	                    </view>       
+                   </view>
+ 
+ 	             <!--  ===============  h divider    ================  --> 
+ 	             <view id="lobbydivider1" x="${parent.width-360}" width="5" height="100%" bgcolor="#F8F8F8" 
+	             				onmousedown="dragging.apply()" onmouseup="dragging.remove()"> 
+	             		<state name="dragging"> <attribute name="x" 
+	             			value="${parent.getMouse('x')}"/> 
+	             		</state> 
+	             </view>
+                   
+                   <view width="${lobbydivider2.x - lobbydivider1.x-15}" x="${lobbydivider1.x+10}" y="0" height="260">
+                       <simplelayout axis="y" spacing="10" />
+                       <list width="${parent.width}" height="${parent.height-80}" >
+                            <textlistitem text="Tina Flarabol" value="1" selected="true"/>
+                            <textlistitem text="Gagamel" value="2"/>
+                            <textlistitem text="Ignats" value="3"/>
+                       </list>
+                       <button x="${parent.width-70}" >Invite &gt;</button>
+                   </view>
+
+	             <!--  ===============  h divider    ================  -->
+                    <view id="lobbydivider2" x="${parent.width-190}" width="5" height="100%" bgcolor="#F8F8F8"
+                            onmousedown="dragging.apply()"
+                            onmouseup="dragging.remove()">
+                            <state name="dragging">
+                                <attribute name="x" value="${parent.getMouse('x')}"/>
+                            </state>
+                    </view>
+
+                   <view width="${parent.width-lobbydivider2-20}" height="${parent.height}" x="${lobbydivider2.x+10}">
+                       <simplelayout axis="y" spacing="5"/>
+
+                       <view>
+                           <text y="5">Lobbies</text>
+                           <button x="137" width="24">+</button>
+                       </view>
+                       <combobox width="160" shownitems="3" defaulttext="Lobby">
+                            <textlistitem datapath="lobbies:/item" text="$path{'text()'}" value="$path{'@value'}"/>
+                       </combobox>
+
+                       <swatchview bgcolor="#F8F8F8"/>
+                       <view>
+                           <text y="5">Stories</text>
+                           <button x="108" width="24">+</button>
+                           <button x="137" width="24">-</button>
+                       </view>
+                       <combobox width="160" shownitems="3" defaulttext="Stories">
+                           <textlistitem datapath="stories:/item" text="$path{'text()'}" value="$path{'@value'}"/>
+                       </combobox>
+
+                       <swatchview bgcolor="#F8F8F8" />
+                       <view>
+                            <text y="5">Characters</text>
+                            <button x="108" width="24">i</button>
+                            <button x="137" width="24">-</button>
+                       </view>
+                       <list width="160" height="176">
+                            <textlistitem text="Florid Roi" value="1" selected="true"/>
+                            <textlistitem text="Sausage Brain Brian" value="2"/>
+                            <textlistitem text="Floyd The Peeper" value="3"/>
+                       </list>
+                   </view>
+	</class>
+</library>              

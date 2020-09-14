@@ -1,0 +1,26 @@
+<library>
+	    <character
+	    			id = "1" 
+	    			name = "Tina Flarabol" 
+	    			desc = "Provincial music-hall star. Owner of fashionable supper club Nurse Cousin by marriage" 
+	    			portrait = "1"
+	    			mapicon = "characters/ch01_sil.swf" 
+	    			faceicon = "characters/ch03_face.png">
+	    </character>
+	    <character
+	    			id="2"
+	    			name = "Inspector Dirgeible" 
+	    			desc = "A cautious man" 
+	    			portrait = "2"
+	    			mapicon = "characters/ch07_sil.png" 
+	    			faceicon = "characters/ch08_face.png">
+	    </character>
+	    <character
+	    			id="3"
+	    			name = "Sausage Brain Brian" 
+	    			desc = "Always thinking" 
+	    			portrait = "3"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+</library>

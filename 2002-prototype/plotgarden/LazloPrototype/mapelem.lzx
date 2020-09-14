@@ -1,0 +1,30 @@
+<library>
+	<class name="mapelem" 	
+			x="${logicalx*(mapscale/30)}" 
+			y="${logicaly*(mapscale/30)}" 
+			xscale="${mapscale/30}" 
+			yscale="${mapscale/30}" 
+			height="${40*(mapscale/30)}" 
+			width="${40*(mapscale/30)}"
+				
+	     		onmousedown="dragger.apply()"
+	     		onmouseup="dragger.remove(); stop()">
+	     		
+	     		<attribute name="resource" value="characters/ch01_sil.swf"/>	     		
+	     		<attribute name="logicalx" value="20"/>
+	     		<attribute name="logicaly" value="20"/>
+	     		<attribute name="mapscale" value="50"/>
+	     		
+	     		<shadowdrag name="dragger"/>
+	     		
+	     		<method name="stop">	
+						this.setAttribute("x", "${parent.getMouse('x')+20}");
+	               	this.setAttribute("y", "${parent.getMouse('y')+20}");     
+	      		</method>
+	      		
+	      		<method event="oninit">
+	      				setAttribute("logicalx",	 "${Math.random(1000)}");
+	      				setAttribute("logicaly",	 "${Math.random(1000)}");
+    			</method>	
+	 </class> 
+</library>	 

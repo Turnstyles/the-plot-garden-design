@@ -1,0 +1,10 @@
+<library>
+  <modaldialog name="AddCharDialog" width="300" height="200">
+    <text>Are you really sure you want to do something?</text>
+    <view align="right" layout="axis:x; spacing:20">
+      <button onclick="parent.parent.close()">Cancel</button>
+      <button onclick="parent.parent.close()" isdefault="true">OK</button>
+    </view>
+    <simplelayout spacing="5"/>
+  </modaldialog>
+</library>

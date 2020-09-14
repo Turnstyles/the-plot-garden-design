@@ -1,0 +1,8 @@
+<library>
+	<lobbies>
+        <item value="item1">Mysts of Irony</item>
+        <item value="item2">Cave of Suspense</item>
+        <item value="item3">Dagon's Dais</item>
+        <item value="item4">Mystery Island</item>
+	</lobbies>
+</library>

@@ -1,0 +1,6 @@
+
+<canvas bgcolor="0x804000" width="640" height="540" 
+        oninit="debug.setX(30);debug.setY(350)" >
+    <connection receiveuserdisconnect="true" />
+    <include href="chatlib.lzx" />
+</canvas>

@@ -1,0 +1,61 @@
+ <!--
+ Copying nodes across datasets using a datapointer
+
+You may have heard mention of datapointers on the forums and in the tutorials and they are frequently glossed over. Here's a good example of what you'd use a datapointer for.
+
+Say you have two datasets and you need to copy a particular node from one to another. In this case, we have two datasets of cartoon characters: the first is dedicated to ducks, while the second contains various animals. Hewey (a duck) must be copied from the second dataset to the first:
+-->
+
+<canvas debug="true">
+    <!-- Data -->
+    <dataset name="first">
+        <ducks>
+            <character name="Donald" type="duck" />
+            <character name="Daisy" type="duck" />
+            <character name="Scrooge" type="duck" />
+        </ducks>
+    </dataset>
+
+    <dataset name="second">
+        <various_characters>
+            <character name="Mickey" type="mouse" />
+            <character name="Pluto" type="dog" />
+            <character name="Hewey" type="duck" />
+            <character name="Minnie" type="mouse" />
+        </various_characters>
+    </dataset>
+
+    <!-- Views -->
+    <simplelayout axis="y" spacing="2" />
+    <view name="characters" datapath="first:/ducks"
+          x="10" y="10">
+        <simplelayout axis="y" spacing="2" />
+        <view name="row" datapath="character" bgcolor="0xeaeaea">
+            <simplelayout axis="x" spacing="2" />
+            <text datapath="@name" />
+            <text datapath="@type" />
+        </view>
+    </view>
+
+    <button>Copy node over
+        <method event="onclick">
+            var dsOne = canvas.datasets.first;
+            var dsTwo = canvas.datasets.second;
+            var dpInFirst = dsOne.getPointer();
+            var dpInSecond = dsTwo.getPointer();
+            dpInFirst.setXPath( 'ducks' );
+            dpInSecond.setXPath( 'various_characters/character[3]' );
+            dpInFirst.addNodeFromPointer( dpInSecond );
+        </method>
+    </button>
+</canvas>
+
+
+<!--
+Here we created two datapointers:
+
+   1. The first we pointed at the root node <ducks> in the first dataset. This is where we are copying to.
+   2. The second we pointed at the node we wanted to copy from, in this case the third <character> node in the second dataset. In this case we knew the offset (3) of the node, but we could have used a loop to search for all <character> nodes with a type attribute of "duck".
+
+Then we used the datapointer's addNodeFromPointer() method on the first datapointer, giving it an argument of the second pointer.
+-->

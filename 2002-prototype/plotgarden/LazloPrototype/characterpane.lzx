@@ -1,0 +1,56 @@
+<library>
+   <!--  ============= Character Pane    =============  -->      
+	<class name="characterpane" id="cPane"  extends ="tabpane" text="Character" width="${parent.width}" height="${parent.height}" >
+                    <datapointer id="currentChar" xpath="characters:/character[1]" />           
+ 
+                    <simplelayout axis="y" spacing="5"/>                                   
+                        <view id="CharacterChooser" x="50">     	                        	                        	
+                            <simplelayout axis="x" spacing="5"/>
+                            <button width="24" onclick="canvas.AddCharDialog.open()" >+</button>
+                            <button width="24" onclick="canvas.DelCharDialog.open()" >-</button>
+                            <button width="24" onclick="CharacterChooser.prevChar()">&lt;</button>
+                            <button width="24" onclick="CharacterChooser.nextChar()">&gt;</button>
+                                                    		 
+								<method name="prevChar" >									
+									if(currentChar.selectPrev()){
+										var id = Number(currentChar.getNodeAttribute("id"));
+										SelectedChar_cb.selectItemAt(id-1);
+										descriptionview.setDesc(currentChar.getNodeAttribute("desc"));
+										portraitview.setPortrait(Number(currentChar.getNodeAttribute("portrait")));
+									} 
+								</method>
+                            
+								<method name="nextChar" >
+									if(currentChar.selectNext()){
+										var id = Number(currentChar.getNodeAttribute("id"));	
+										SelectedChar_cb.selectItemAt(id-1);										
+										descriptionview.setDesc(currentChar.getNodeAttribute("desc"));
+										portraitview.setPortrait(Number(currentChar.getNodeAttribute("portrait")));
+									} 
+					  			</method>
+                        </view>
+								 						
+	                   <combobox id="SelectedChar_cb" x="0" y="0" width="160" shownitems="8" editable="false" defaultselection="1">
+	                       <textlistitem datapath="characters:/character" text="$path{'@name'}" value="$path{'@id'}"/>
+	                       <method event="onvalue">	
+		                       	currentChar.setXPath("characters:/character["+ getValue() +"]");
+   								descriptionview.setDesc(currentChar.getNodeAttribute("desc"));
+								portraitview.setPortrait(Number(currentChar.getNodeAttribute("portrait")));
+	                       </method>
+	                   </combobox>
+	
+	                   <view>
+	                   <simplelayout axis="x" spacing="5"/>
+	                   <edittext id="descriptionview" width="220" height="285" multiline="true" resizable="true" >
+	                       <method name="setDesc" args="desc">
+	                            setAttribute("text", desc);
+	                       </method>	
+	                   </edittext>
+	                   <view id="portraitview" resource="portraits" x="140" y="0" >
+	                       <method name="setPortrait" args="num">
+	                       		setResourceNumber(num);	                           			
+	                       </method>	
+	                   </view>
+	                  </view>
+	</class>
+</library>              

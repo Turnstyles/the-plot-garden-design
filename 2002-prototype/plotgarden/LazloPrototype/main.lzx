@@ -1,0 +1,219 @@
+<!DOCTYPE canvas SYSTEM "c:\lz\Server\lps-3.0b1\tools\lzx.dtd">
+<canvas title="The Plot Garden" width="100%" height="100%"  >
+   <font name="gothicbold" src="chevarar.ttf"/>
+   <resource name="cobble" src="cobble_slanted.swf" />
+   <resource name="portraits">
+   		<frame src="characters/ch01.png"/>
+   		<frame src="characters/ch02.png"/>
+   		<frame src="characters/ch03.png"/>
+   		<frame src="characters/ch04.png"/>
+   		<frame src="characters/ch05.png"/>
+   		<frame src="characters/ch06.png"/>		
+   		<frame src="characters/ch07.png"/>
+   		<frame src="characters/ch08.png"/>
+   		<frame src="characters/ch09.png"/>
+   		<frame src="characters/ch10.png"/>
+   		<frame src="characters/ch11.png"/>
+   		<frame src="characters/ch12.png"/>		
+   		<frame src="characters/ch13.png"/>
+   		<frame src="characters/ch14.png"/>
+   		<frame src="characters/ch15.png"/>
+   		<frame src="characters/ch16.png"/>
+   		<frame src="characters/ch17.png"/>		
+   		<frame src="characters/ch18.png"/>
+   		<frame src="characters/ch19.png"/>
+   		<frame src="characters/ch20.png"/>
+   </resource>
+
+   <include href="mapelem.lzx"/>
+   <include href="shadowdrag.lzx"/>   	
+   <include href="addchardialog.lzx"/>   
+   <include href="delchardialog.lzx"/>   
+
+   <include href="characterpane.lzx"/>   
+   <include href="lobbypane.lzx"/>   
+   <include href="storypane.lzx"/>   
+         	
+   <dataset name="mapdata" src="mapdata.xml" />
+   <dataset name="lobbies" src="lobbies.xml" />
+   <dataset name="stories" src="stories.xml" />
+   <dataset name="characters">
+   	    <character
+	    			id = "1" 
+	    			name = "Florid Roii" 
+	    			desc = "Fancy pants. Owner of worlds." 
+	    			portrait = "1"
+	    			mapicon = "characters/ch01_sil.swf" 
+	    			faceicon = "characters/ch03_face.png">
+	    </character>
+	    <character
+	    			id="2"
+	    			name = "Sausage Brain Brian" 
+	    			desc = "Always thinking. Always scheming." 
+	    			portrait = "2"
+	    			mapicon = "characters/ch07_sil.png" 
+	    			faceicon = "characters/ch08_face.png">
+	    </character>
+	    <character
+	    			id="3"
+	    			name = "Ms Doolittle" 
+	    			desc = "" 
+	    			portrait = "3"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="4"
+	    			name = "Emilie Knowsalot" 
+	    			desc = "" 
+	    			portrait = "4"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="5"
+	    			name = "Brown Richard" 
+	    			desc = "" 
+	    			portrait = "5"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="6"
+	    			name = "Sir Runcible" 
+	    			desc = "" 
+	    			portrait = "6"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="7"
+	    			name = "Father Lefty" 
+	    			desc = "" 
+	    			portrait = "7"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="8"
+	    			name = "Inspector Glum" 
+	    			desc = "" 
+	    			portrait = "8"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="9"
+	    			name = "Susie McQueue" 
+	    			desc = "" 
+	    			portrait = "9"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="10"
+	    			name = "Jack O'Brian" 
+	    			desc = "" 
+	    			portrait = "10"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="11"
+	    			name = "Major Damage" 
+	    			desc = "" 
+	    			portrait = "11"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="12"
+	    			name = "Professor Yarly" 
+	    			desc = "" 
+	    			portrait = "12"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="13"
+	    			name = "Mr Jim" 
+	    			desc = "" 
+	    			portrait = "13"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="14"
+	    			name = "Sandy Lovelace" 
+	    			desc = "" 
+	    			portrait = "14"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="15"
+	    			name = "The Honorable Mr Plum" 
+	    			desc = "" 
+	    			portrait = "15"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="16"
+	    			name = "Angelica Roth" 
+	    			desc = "" 
+	    			portrait = "16"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="17"
+	    			name = "Velma Van Derlitter" 
+	    			desc = "" 
+	    			portrait = "17"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="18"
+	    			name = "Sam Dirgible" 
+	    			desc = "" 
+	    			portrait = "18"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>
+	    <character
+	    			id="19"
+	    			name = "Agatha Moonspyre" 
+	    			desc = "" 
+	    			portrait = "19"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>	   		   		   	
+	   	<character
+	    			id="20"
+	    			name = "Tina Flarabol" 
+	    			desc = "" 
+	    			portrait = "21"
+	    			mapicon = "characters/ch02_sil.png" 
+	    			faceicon = "characters/ch02_face.png">
+	   	</character>	
+	</dataset>
+   
+
+    <view width="${parent.width}" height="${parent.height}">
+        <view x="10" y="5">
+        <simplelayout axis="x" spacing="5"/>
+        <view resource="icons/plotgarden_icon.swf"/>       
+           <text font="gothicbold" fontsize="24" fgcolor="#333333">The Plot Garden</text>
+        </view>
+
+        <view id="TabPanes" x="10" y="50" width="${parent.width-20}" height="${parent.height-60}">
+            <tabs width="${parent.width}" height="${parent.height}">
+			 	<characterpane name="characterpane" />     
+			 	<lobbypane name="lobbypane" />     
+			 	<storypane name="storypane" />   
+            </tabs>
+        </view>
+   	</view>
+</canvas>

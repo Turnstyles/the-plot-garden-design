@@ -1,0 +1,11 @@
+<lzapplication>
+    <appname>Simple Chat Bar</appname>
+    <shortdesc>
+        Simple example of a chat application. 
+        Type in a name and chat with everyone else
+        using this app at the same time!
+    </shortdesc>
+    <authorfirstname>Andrew</authorfirstname>
+    <authorlastname>Wooldridge</authorlastname>
+    <authorwebsite>http://www.andrewwooldridge.com/</authorwebsite>
+</lzapplication>

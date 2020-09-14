@@ -1,0 +1,13 @@
+<library>
+  <modaldialog name="AddCharDialog" width="500" height="400">
+    <view>
+       <simplelayout axis="y" spacing="5"/>
+    	<edittext width="220" height="22" multiline="false" resizable="true"/>
+    	<edittext width="220" height="285" multiline="true" resizable="true"/>
+	    <view align="right" layout="axis:x; spacing:5">
+	      <button onclick="parent.parent.parent.close()" isdefault="true">OK</button>
+	      <button onclick="parent.parent.parent.close()">Cancel</button>
+	    </view>
+    </view> 
+  </modaldialog>
+</library>

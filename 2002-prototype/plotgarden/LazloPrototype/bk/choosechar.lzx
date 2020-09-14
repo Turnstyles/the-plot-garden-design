@@ -1,0 +1,26 @@
+<canvas width="450" height="250">
+  <include href="lz/tree.lzx"/>
+
+  <dataset name="ancestors">
+    <hobbit name="Frodo">
+      <hobbit name="Drogo">
+        <hobbit name="Fosco" grandparent="true"/>
+        <hobbit name="Bolger, Ruby" grandparent="true"/>
+      </hobbit>
+      <hobbit name="Brandybuck, Primula">
+        <hobbit name="Brandybuck, Gorbadoc" grandparent="true"/>
+        <hobbit name="Took, Mirabella" grandparent="true"/>
+      </hobbit>
+    </hobbit>
+  </dataset>
+
+  <view x="20" y="20" layout="axis: x; spacing: 10">
+    <!-- data replicated tree -->
+    <view width="200" height="200">
+      <tree datapath="ancestors:/" icon="null" showroot="false">
+        <tree datapath="*" icon="null" text="$path{'@name'}" 
+              isleaf="$path{'@grandparent'}"/>
+      </tree>
+    </view>
+  </view>
+</canvas>

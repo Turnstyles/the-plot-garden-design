@@ -1,0 +1,215 @@
+<canvas 
+	title="ChatBar" 
+	debug="false" 
+	height="300" 
+	width="230"
+	>
+  <debug y="60" x="170"/>
+<goldstyle name="mystyle" isdefault="true"/>
+
+  <connection authenticator="anonymous" receiveuserdisconnect="true">
+    <method event="onconnect">
+      Debug.write('connected as ' + connection.getUsername());
+      myconnection.sendMessage('*', '*connected*', 'messages');
+    </method>
+    <method event="ondisconnect">
+      Debug.write('client disconnected');
+    </method>
+  </connection>
+
+  <datapointer xpath="connection:loginDset:/login[1]/authentication[1]/response[1]/status[1]">
+    <method event="ondata">
+      var statusMessage = this.xpathQuery('@msg');
+      Debug.write('login: ' + statusMessage);
+    </method>
+    <method event="onerror">
+      Debug.write('login resulted in error');
+    </method>
+    <method event="ontimeout">
+      Debug.write('login timed out');
+    </method>
+  </datapointer>
+
+  <datapointer xpath="connection:logoutDset:/logout[1]/authentication[1]/response[1]/status[1]">
+    <method event="ondata">
+      var statusMessage = this.xpathQuery('@msg');
+      Debug.write('logout: ' + statusMessage);
+    </method>
+    <method event="onerror">
+      Debug.write('logout resulted in error');
+    </method>
+    <method event="ontimeout">
+      Debug.write('logout timed out');
+    </method>
+  </datapointer>
+
+
+
+  <connectiondatasource name="myconnection">
+      <dataset name="messages"/>
+  </connectiondatasource>
+
+  <datapointer xpath="myconnection:messages:/*[1]">
+    <method event="ondata">
+      var from = this.xpathQuery('/from[0]/@name');
+      var mesg = this.xpathQuery('/text()');
+      Debug.write('got data from ' + from +  ', mesg is ['+ mesg + ']!');
+      //chatlog.setText(chatlog.text + '\n'+'['+from+'] '+mesg);
+      this.parent.chatPtr.addNode("message", null,
+                          { text: "[" + from + "] "+ mesg }
+                );
+    </method>
+  </datapointer>
+
+  <datapointer xpath="myconnection:sendMessageDset:/*[1]">
+    <method event="ondata">
+      Debug.write("*** got result back ***");
+    </method>
+  </datapointer>
+
+<!-- datapointer stuff for chat log -->
+<dataset name="chatDset" />
+<datapointer name="chatPtr" xpath="chatDset:/" />
+
+
+
+	<view name="primary" height="300" width="210"  opacity="0">
+		<!-- Primary -->
+		<simplelayout axis="y" spacing="12"/>
+		<animator name="myfader" attribute="opacity" 
+			from="1" to="0" duration="1000" start="false"/>
+		<animator name="myunfader" attribute="opacity" 
+			from="0" to="1" duration="1000" start="false"/>
+		
+		
+		
+		<view name="chatView" width="210" height="200" x="10" y="10" 
+			bgcolor="#ffffff" clip="true">
+			<view name="svpar">
+		                <method name="adjustScroll">
+		                <![CDATA[
+		                    if (this.parent.height < 0) return;
+		                        var cvDif=this.parent.height-this.height;
+		                        if ((cvDif) < 0){
+		                            this.setY(cvDif);
+		                            this.parent.scrollbar.updateThumbPos();
+		                        }
+		                    ]]>
+		                </method>
+		                <view name="sview" oninit="this.parent.adjustScroll();">
+		                    <datapath pooling="true" xpath="chatDset:/message" />
+		                    <text width="${parent.parent.parent.width}" multiline="true" 
+		                          selectable="true" datapath="@text" />
+		                </view>
+		                <simplelayout axis="y" spacing="2"/>
+		            </view>
+		            <scrollbar name="scrollbar" axis="y"/>
+        	</view>
+				
+		<view x="10">
+			<simplelayout axis="x"/>
+			<edittext id="inputfield">
+			    <method event="onkeydown" reference="LzKeys" args="k">
+			    	//Debug.write(inputfield.getText());
+			        if ( k == 13 &amp;&amp; canvas.primary.opacity!=0) {
+			        	Debug.write("Enter hit");
+					myconnection.sendMessage('*', inputfield.getText(), 'messages');
+					inputfield.setText('');
+			        }
+    				</method>
+			</edittext>
+			<button>
+				Send
+				<method event="onclick">
+					//chatlog.setText(chatlog.text + '\n'+inputfield.text); 
+					myconnection.sendMessage('*', inputfield.getText(), 'messages');
+					inputfield.setText('');
+				</method>
+			</button>
+			
+		</view>
+		
+		<view x="10" layout="axis:x; spacing:20">   	
+    		<button>
+    			Logout
+		      <method event="onclick">
+		      	myconnection.sendMessage('*', '*logged out*', 'messages');
+		        canvas.connection.logout();
+		        canvas.secondary.myunfader.doStart();
+			canvas.primary.myfader.doStart();
+		      </method>
+    		</button>
+    		
+
+		
+  		<button onclick="canvas.mydialog.open()" >Help</button>
+    		</view>
+    		
+    		
+    		
+		
+		
+	</view>
+
+	<view name="secondary" height="300" width="210" opacity="1">
+		<!-- Secondary -->
+		<method name="fademe">
+			this.myfader.doStart();
+			this.parent.primary.myunfader.doStart();
+			//this.parent.primary.valueBox.setText('you typed'+ this.inputText.getText());
+		</method>
+		<animator name="myfader" attribute="opacity" 
+			from="1" to="0" duration="1000" start="false"/>
+
+		
+		<animator name="myunfader" attribute="opacity" 
+			from="0" to="1" duration="1000" start="false"/>
+		
+		<text bgcolor="black" x="35" y="100">
+			<font color="#FFFFFF"><b>ChatBar .01</b><br/>by Andrew Wooldridge</font>
+		</text>
+		<text x="15" y="150" >Type a name</text>
+		<edittext name="myname" x="15" y="170" width="150">
+			<method event="oninit">
+				this.setText('Guest_'+Math.ceil(Math.random() *1000));
+			</method>
+		</edittext>
+		<button x="103" y="200" >
+			Login
+			<method event="onclick">
+    				var usr = parent.myname.getText();
+    				Debug.write("setting user: "+usr);
+    				canvas.connection.setAuthParam('usr=' + usr);
+        			canvas.connection.connect();
+        			parent.fademe()
+    			</method>	
+		</button>
+
+		
+
+
+
+		
+	</view>
+
+    		  <modaldialog name="mydialog" width="200" height="200">
+		    <text>
+		    	Just type in messages and <br/>
+		    	hit send or enter.<br/>
+		    	You can also wrap <br/>
+		    	messages with b,i,a <br/>
+		    	HTML markup. <br/>
+		    	Feedback to <br/>
+		    	<u><a href="mailto:triptych@gmail.com">triptych@gmail.com</a></u>
+		    </text>
+		    <view align="right" layout="axis:x; spacing:20">
+		      <button onclick="parent.parent.close()" isdefault="true">OK</button>
+		    </view>
+		    <simplelayout spacing="5"/>
+		  </modaldialog>
+
+
+
+
+
+</canvas>
