@@ -1,6 +1,7 @@
 # General Mechanics:
 
 - Is this a role-playing game or a god-playing game? It's a question of a first-person close "psychic distance," with a camera that only sees what the character can see, versus third person distant, with a camera that can see whatever it wants.
+( cw: I'd say definitely role-playing, each character's story needs to be worthwhile from it's own point of view, but some roles exist mostly to provide an external story arc where that characters part in it might be small)
 
 - Important to make imagined scene-layout clear but not overelaborate.
 

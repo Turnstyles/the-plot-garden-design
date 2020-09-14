@@ -4,15 +4,15 @@
 
 - Type 2: Internal Conflict—Functions as an internal, one-character in medias res. Usually involves habitual action, and no inciting incident, but a feeling of change on the horizon.
 
-Type 3: Mystery—invokes hermeneutic suspense. Often involves an element unfamiliar to the world of the reader. However, should not overwhelm the reader with difference, lest it feel like a mess rather than a mystery.
+- Type 3: Mystery—invokes hermeneutic suspense. Often involves an element unfamiliar to the world of the reader. However, should not overwhelm the reader with difference, lest it feel like a mess rather than a mystery.
 
-# Charater-Generation:
+# Character-Generation:
 
 - What is the last thing they would do in _blank_ situation?
 
 - How do others treat them? Queen effect.
 
-- Essences: What kind of smoke are you?
+- Essences: What kind of smoke are you? (cw: choose 5 adjectives to describe different attributes of yourself, a fey creature asks you to tell a story about your childhood and will reward you for a good one).
 
 - “Thus plot not only changes but creates character: By our actions we discover what we really believe and, simultaneously, reveal ourselves to others. And setting influences both character and plot: One cannot do in a thunderstorm what one does on a hot day in Jordan.” Plot/char/setting all tied together. Use action/setting as tangible things to force the writer to create character bit by bit.
 
