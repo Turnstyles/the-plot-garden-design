@@ -1,0 +1,32 @@
+<!--
+ Constraining a draggable view
+You might have discovered the <dragstate> tag, which makes it very easy to make a view draggable. The current <dragstate> tag does not allow for constraints. i.e. you can't specify which axis to drag on (x or y) or maximum and minimum values. It's quite easy to write your own however. To begin with, have a look at dragstate.lzx (in INF/components/lps/components/utils/states/). It's just a class that extends state.
+-->
+
+<canvas>
+    <class name="horizDrag" extends="state">
+        <attribute name="xdmin" />
+        <attribute name="xdmax" />
+        <attribute name="xdoffset" init="this.getMouse( 'x' )" />
+        <attribute name="x" 
+                   value="Math.min(  
+                            Math.max( 
+                                this.immediateParent.getMouse( 'x' ) 
+                                - this.xdoffset, 
+                            this.xdmin ), 
+                          this.xdmax  )" />
+    </class>
+
+    <view name="container" x="10" y="100" width="300">
+        <view name="rightArrow" resource="right.png"
+              onmousedown="xdragger.apply()" 
+              onmouseup="xdragger.remove()">
+            <horizDrag name="xdragger" xdmin="0" xdmax="300" />
+        </view>
+    </view>
+</canvas>
+
+
+<!--
+It's basically the same as the <dragstate> tag, except that there is no mention of the 'y' related parts. The value of the x attribute (in green above) uses ECMAScript's Math object to round the number up or down to either the minimum or maximum x value as prescribed by the xdmin or xdmax attributes at instantiation. It's broken up across several lines for clarity.
+-->

@@ -1,0 +1,25 @@
+<library>
+    <dataset name="characters">
+        <character id="01">
+            <name>Tina Flarabol</name>
+            <description>Provincial music-hall star. Owner of fashionable supper club Nurse Cousin by marriage.</description>
+            <portrait>ch03.png</portrait>
+            <mapicon>ch01_sil.swf</mapicon>
+            <faceicon>ch03_face.png</faceicon>
+        </character>
+        <character id="02">
+            <name>Inspector Dirgeible</name>
+            <description>A cautious man</description>
+            <portrait>ch08.png</portrait>
+            <mapicon>ch07_sil.png</mapicon>
+            <faceicon>ch08_face.png</faceicon>
+        </character>
+        <character id="03">
+            <name>Sausage Brain Brian</name>
+            <description>Always thinking</description>
+            <portrait>ch02.png</portrait>
+            <mapicon>ch02_sil.png</mapicon>
+            <faceicon>ch02_face.png</faceicon>
+        </character>
+    </dataset>
+</library>

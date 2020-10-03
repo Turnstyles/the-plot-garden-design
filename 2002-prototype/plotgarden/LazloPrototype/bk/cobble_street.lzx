@@ -1,0 +1,208 @@
+<library>
+   <dataset name="mapdata" h="2000" w="2000" bg="cobble">
+       <row id="1">
+	       <col id="1">
+	       </col>
+	       <col id="2">
+	       </col>
+	       <col id="3">
+	       </col>
+	       <col id="4">
+	       </col>
+	       <col id="5">
+	       </col>
+	       <col id="6">
+	       </col>
+	       <col id="7">
+	       </col>
+	       <col id="8">
+	       </col>
+	       <col id="9">
+	       </col>
+	       <col id="10">
+	       </col>
+	       <col id="11">
+	       </col>
+	       <col id="12">
+	       </col>
+	       <col id="13">
+	       </col>
+	       <col id="14">
+	       </col>
+	       <col id="15">
+	       </col>
+	       <col id="16">
+	       </col>
+	       <col id="17">
+	       </col>
+	       <col id="18">
+	       </col>
+	       <col id="19">
+	       </col>
+	       <col id="20">
+	       </col>
+	       <col id="21">
+	       </col>
+	       <col id="22">
+	       </col>
+	       <col id="23">
+	       </col>
+	       <col id="24">
+	       </col>
+	       <col id="25">
+	       </col>
+	       <col id="26">
+	       </col>
+	       <col id="27">
+	       </col>
+	       <col id="28">
+	       </col>
+	       <col id="29">
+	       </col>	       
+	       <col id="30">
+	       </col>
+	       <col id="31">
+	       </col>
+	       <col id="32">
+	       </col>
+	       <col id="33">
+	       </col>
+	       <col id="34">
+	       </col>
+	       <col id="35">
+	       </col>
+	       <col id="36">
+	       </col>
+	       <col id="37">
+	       </col>
+	       <col id="38">
+	       </col>
+	       <col id="39">
+	       </col>
+	       <col id="40">
+	       </col>
+	       <col id="41">
+	       </col>
+	       <col id="42">
+	       </col>
+	       <col id="43">
+	       </col>
+	       <col id="44">
+	       </col>
+	       <col id="45">
+	       </col>
+	       <col id="46">
+	       </col>
+	       <col id="47">
+	       </col>
+	       <col id="48">
+	       </col>
+	       <col id="49">
+	       </col>
+	       <col id="50">
+	       </col>
+       </row>
+       <row id="2">
+	       <col id="1">
+	       </col>
+	       <col id="2">
+	       </col>
+	       <col id="3">
+	       </col>
+	       <col id="4">
+	       </col>
+	       <col id="5">
+	       </col>
+	       <col id="6">
+	       </col>
+	       <col id="7">
+	       </col>
+	       <col id="8">
+	       </col>
+	       <col id="9">
+	       </col>
+	       <col id="10">
+	       </col>
+	       <col id="11">
+	       </col>
+	       <col id="12">
+	       </col>
+	       <col id="13">
+	       </col>
+	       <col id="14">
+	       </col>
+	       <col id="15">
+	       </col>
+	       <col id="16">
+	       </col>
+	       <col id="17">
+	       </col>
+	       <col id="18">
+	       </col>
+	       <col id="19">
+	       </col>
+	       <col id="20">
+	       </col>
+	       <col id="21">
+	       </col>
+	       <col id="22">
+	       </col>
+	       <col id="23">
+	       </col>
+	       <col id="24">
+	       </col>
+	       <col id="25">
+	       </col>
+	       <col id="26">
+	       </col>
+	       <col id="27">
+	       </col>
+	       <col id="28">
+	       </col>
+	       <col id="29">
+	       </col>	       
+	       <col id="30">
+	       </col>
+	       <col id="31">
+	       </col>
+	       <col id="32">
+	       </col>
+	       <col id="33">
+	       </col>
+	       <col id="34">
+	       </col>
+	       <col id="35">
+	       </col>
+	       <col id="36">
+	       </col>
+	       <col id="37">
+	       </col>
+	       <col id="38">
+	       </col>
+	       <col id="39">
+	       </col>
+	       <col id="40">
+	       </col>
+	       <col id="41">
+	       </col>
+	       <col id="42">
+	       </col>
+	       <col id="43">
+	       </col>
+	       <col id="44">
+	       </col>
+	       <col id="45">
+	       </col>
+	       <col id="46">
+	       </col>
+	       <col id="47">
+	       </col>
+	       <col id="48">
+	       </col>
+	       <col id="49">
+	       </col>
+	       <col id="50">
+	       </col>
+       </row>       
+    </dataset>
+</library>

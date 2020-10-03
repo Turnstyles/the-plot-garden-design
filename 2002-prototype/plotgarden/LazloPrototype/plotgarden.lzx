@@ -1,0 +1,45 @@
+<!--=======================================================================-->
+<!--                                                                       -->
+<!-- plotgarden.lzx                                                       -->
+<!--                                                                       -->
+<!--                                                                       -->
+<!--=======================================================================-->
+
+<canvas height="100%" width="100%" bgcolor="#f8f8f8">
+	<font name="myriad" src="chevarar.ttf"/> 
+	<text font="myriad" fontsize="20" fgcolor="#333333">The Plot Garden</text>
+ 
+ 	<view name="left" width="${divider.x}" height="${parent.height}" bgcolor="#CCCCCC">
+        <text>This is the left panel</text>
+   </view>
+
+   <view id="divider" x="150" width="6" height="${parent.height}" bgcolor="#A9A9A9"
+        onmousedown="dragging.apply()"
+        onmouseup="dragging.remove()">
+        <state name="dragging">
+            <attribute name="x" value="${parent.getMouse('x')}"/>
+        </state>
+   </view>
+
+	<view x="${cart.x+10}" y="${cart.y+20}" resource="character1.swf"
+        onmousedown="dragging.apply()"
+        onmouseup="dragging.remove(); stop()">
+
+        <dragstate name="dragging"/>
+
+        <method name="stop">
+            if (this.x>wish.x) {
+                this.setAttribute("x", wish.x+10);
+                this.setAttribute("y", wish.y+20);
+            } else {
+                this.setAttribute("x", cart.x+10);
+                this.setAttribute("y", cart.y+20);
+            }
+        </method>
+   </view>
+    
+	<view name="right" x="${divider.x+divider.width}" width="${parent.width-this.x}" height="${parent.height}" bgcolor="#F8F8f8">
+        <text>This is the right panel</text>
+    </view>
+	<resource name="cobble" src="cobblestone.swf" />
+</canvas>

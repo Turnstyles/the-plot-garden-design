@@ -1,0 +1,319 @@
+<!DOCTYPE canvas SYSTEM "c:\lz\Server\lps-3.0b1\tools\lzx.dtd">
+<canvas title="The Plot Garden" width="100%" height="100%" >
+   <font name="gothicbold" src="gothicb.ttf"/>
+   <resource name="cobble" src="cobble_slanted.swf" />
+   <include href="mapicon.lzx"/>
+   
+   <include href="shadowdrag.lzx"/>   	
+   <include href="inspectors.lzx"/>   	
+
+    <dataset name="lobbies">
+        <item value="item1">Mysts of Irony</item>
+        <item value="item2">Cave of Suspense</item>
+        <item value="item3">Dagon's Dais</item>
+        <item value="item4">Mystery Island</item>
+    </dataset>
+    <dataset name="stories">
+        <item value="item1">Marloe's Landing</item>
+        <item value="item2">Shrub's Disgrace</item>
+        <item value="item3">The Hidden Dog Bowl</item>
+        <item value="item4">The Giants of Commerce</item>
+    </dataset>
+    
+    <dataset name="mapdata" h="2000" w="2000" bg="cobble">
+       <mapelem id="ch01" x="20" y="40" />
+    </dataset>
+    
+
+    <view width="${parent.width}" height="${parent.height}">
+        <view x="10" y="5">
+            <simplelayout axis="x" spacing="5"/>
+            <view resource="icons/plotgarden_icon.swf"/>
+            <text font="gothicbold" fontsize="24" fgcolor="#333333">The Plot Garden</text>
+        </view>
+
+        <view x="10" y="50" width="${parent.width-20}" height="${parent.height-60}">
+            <tabs width="${parent.width}" height="${parent.height}">
+                        
+               <!--  =============  CHARACTER    =============  -->            
+               <tabpane text="Character" width="${parent.width}" height="${parent.height}">
+                    <simplelayout axis="y" spacing="5"/>
+                        <view x="50">
+                            <simplelayout axis="x" spacing="5"/>
+                            <button width="24">+</button>
+                            <button width="24">-</button>
+                            <button width="24">&lt;</button>
+                            <button width="24">&gt;</button>
+                        </view>
+
+                        <combobox x="0" y="0" width="160" shownitems="5" editable="false">
+                            <textlistitem datapath="inspectors:/inspector" text="$path{'name/text()'}" value="$path{'info/description/text()'}"/>
+                        </combobox>
+                        <view>
+                            <simplelayout axis="x" spacing="5"/>
+                        	<edittext width="220" height="285" multiline="true" resizable="true">
+                        	</edittext>
+                        	<view resource="characters/ch01.png" x="140" y="0" ></view>
+                        </view>
+               </tabpane>
+
+               <!--  ===============  LOBBY   =================  -->
+               <tabpane text="Lobby" width="${parent.width}" height="${parent.height}" >
+                   <view width="${parent.width-340}">
+                       <simplelayout axis="y" spacing="5"/>
+                       <view name="contents">
+                           <view width="320" height="345">
+                                <edittext width="320" height="345" multiline="true" resizable="true">
+                                </edittext>
+                            </view>
+                        </view>
+                        <view>
+                            <simplelayout axis="x" spacing="5"/>
+                            <view width="260">
+                                <edittext width="260" multiline="true" resizable="true">message text</edittext>
+                            </view><button>Send</button>
+                        </view>
+                   </view>
+                   <view width="160" x="350">
+                       <simplelayout axis="y" spacing="5"/>
+                       <list width="160" height="345">
+                            <textlistitem text="Tina Flarabol" value="1" selected="true"/>
+                            <textlistitem text="Gagamel" value="2"/>
+                            <textlistitem text="Ignats" value="3"/>
+                            <textlistitem text="Mr Monster" value="4"/>
+                            <textlistitem text="Inspector Gadget" value="5"/>
+                            <textlistitem text="Floyd The Peeper" value="6"/>
+                            <textlistitem text="Master Ho" value="7"/>
+                            <textlistitem text="Jeremy Potter" value="8"/>
+                            <textlistitem text="Hoka Louai" value="9"/>
+                            <textlistitem text="Serundel" value="10"/>
+                            <textlistitem text="Madamn Damnitall" value="11"/>
+                            <textlistitem text="Florid Roi" value="12"/>
+                            <textlistitem text="Sausage Brain Brian" value="13"/>
+                            <textlistitem text="Ted Cobble" value="14"/>
+                            <textlistitem text="Dr Extendable" value="15"/>
+                            <textlistitem text="Mister Wilde" value="16"/>
+                            <textlistitem text="The Great Sanjiat" value="17"/>
+                            <textlistitem text="The Humble Postman" value="18"/>
+                            <textlistitem text="Johnny Spot" value="19"/>
+                            <textlistitem text="Hopelessly Goth in '09" value="20"/>
+                       </list>
+                       <button x ="89">Invite &gt;</button>
+                   </view>
+                   <view width="160" x="520">
+                       <simplelayout axis="y" spacing="5"/>
+
+                       <view>
+                           <text y="5">Lobbies</text>
+                           <button x="137" width="24">+</button>
+                       </view>
+                       <combobox width="160" shownitems="3" defaulttext="Lobby">
+                            <textlistitem datapath="lobbies:/item" text="$path{'text()'}" value="$path{'@value'}"/>
+                       </combobox>
+
+                       <swatchview bgcolor="#F8F8F8"/>
+                       <view>
+                           <text y="5">Stories</text>
+                           <button x="108" width="24">+</button>
+                           <button x="137" width="24">-</button>
+                       </view>
+                       <combobox width="160" shownitems="3" defaulttext="Stories">
+                           <textlistitem datapath="stories:/item" text="$path{'text()'}" value="$path{'@value'}"/>
+                       </combobox>
+
+                       <swatchview bgcolor="#F8F8F8" />
+                       <view>
+                            <text y="5">Characters</text>
+                            <button x="108" width="24">i</button>
+                            <button x="137" width="24">-</button>
+                       </view>
+                       <list width="160" height="176">
+                            <textlistitem text="Florid Roi" value="1" selected="true"/>
+                            <textlistitem text="Sausage Brain Brian" value="2"/>
+                            <textlistitem text="Floyd The Peeper" value="3"/>
+                       </list>
+                   </view>
+               </tabpane>
+               
+               <!--  ===============   STORY    ================  -->
+               <tabpane text="Story" width="${parent.width}" height="${parent.height}" >
+
+	             <!--  ===============   left pane    ================  -->
+                    <view name="left" width="${divider1.x}" height="${parent.height}" bgcolor="#F8F8F8">
+                        <simplelayout axis="y" spacing="5"/>
+             
+                        <text>Cast</text>
+                        <list width="180" height="80">
+                            <textlistitem text="Florid Roi" value="1" selected="true"/>
+                            <textlistitem text="Sausage Brain Brian" value="2"/>
+                            <textlistitem text="Floyd The Peeper" value="3"/>
+                       </list>
+                       <swatchview bgcolor="#F8F8F8" />
+             
+                        <text>Mysteries</text>
+                        <list width="180" height="80">
+                            <textlistitem text="The Deadly Garden of Delight" value="1" selected="true"/>
+                            <textlistitem text="The Murder of Mr Marlowe" value="2"/>
+                            <textlistitem text="The Tolstoi Effect" value="3"/>
+                       </list>
+                       <swatchview bgcolor="#F8F8F8" />
+
+						<view  y="${canvas.height-355}" >
+								<simplelayout axis="y" spacing="5"/>
+	                     	<text multiline="true" x="10" width="160">
+	                       		Instructions <br/>
+	                       		Such as what to do next  <br/>
+	                       		And what allowable moves are available.
+	                       </text>           
+	                       <swatchview height="10" bgcolor="#F8F8F8" />
+	            
+	                       <text>Playback</text>
+	                       <view x="7" width="170" height="120" bgcolor="#E8E8E8">
+	                       </view>
+	                       <view x="5">
+	                            <simplelayout axis="x" spacing="2"/>
+	                            <button width="32">&lt;&lt;&lt;</button>
+	                            <button width="26">&lt;&lt;</button>
+	                            <button width="24">||</button>
+	                            <button width="24">&gt;</button>
+	                            <button width="26">&gt;&gt;</button>
+	                            <button width="32">&gt;&gt;&gt;</button>
+	                        </view>
+	                    </view>
+                    </view>
+                    
+	             <!--  ===============  h divider    ================  -->
+	             <view id="divider1" x="180" width="5" height="100%" bgcolor="#F8F8F8"
+                     	onmousedown="dragging.apply()"
+                            onmouseup="dragging.remove()">
+                            <state name="dragging">
+                                <attribute name="x" value="${parent.getMouse('x')}"/>
+                            </state>
+                    </view>
+  
+		                     
+		      <slider id="mapscale" x="${canvas.width-375}" y="8" showvalue="false" showrange="false" minvalue="1" maxvalue="100" width="160" value="20" />
+	             <!--  ===============   center pane    ================  -->
+                    <view name="center" x="${divider1.x+5}"  y="22" height="${vdiv1.y-22}" width="${divider2.x-divider1.x-5}" clip="true" bgcolor="#F8F8F8">
+                        
+                        <view name="map" id="zoomyMap" resource="cobble" x="0" y="0" xscale="${mapscale.value/30}" 
+                        								  yscale="${mapscale.value/30}" 
+                        								  height="${2000*(mapscale.value/30)}" 
+                        								  width="${2000*(mapscale.value/30)}">
+                        								           		
+                        		 <view datapath="mapdata:/mapelem" >
+                					<mapicon/>
+                        		 </view>
+                        		 
+								<method event="onclick">
+									<![CDATA[
+										var iconArray = new Array();
+										for(var i=1;i<100;i++){
+											iconArray[i] = new mapicon( zoomyMap, {x: 40 * (Math.random()*50), y: 40*(Math.random() *50)});
+										}
+									]]>	
+									
+					  			</method>
+          		   			</view>
+                    	   <vscrollbar/> 
+ 		      	   			<hscrollbar/>
+ 		      		</view>
+
+
+ 	             <!--  ===============  v divider    ================  -->
+                   <view id="vdiv1" x="${divider1.x+5}" y="${parent.height-200}" width="100%" height="5"  bgcolor="#F8F8F8"
+                            onmousedown="dragging.apply()"
+                            onmouseup="dragging.remove()">
+                            <state name="dragging">
+                                <attribute name="y" value="${parent.getMouse('y')}"/>
+                            </state>
+                    </view>
+                    
+                    <view name="contents" x="${divider1.x+5}" y="${vdiv1.y+5}" bgcolor="#F8F8F8">
+                           <view width="${divider2.x-divider1.x}" height="${vdiv2.y-vdiv1.y}" >
+                                <edittext width="100%" height="${parent.height}" multiline="true" resizable="true">
+                                </edittext>
+                            </view>
+                    </view>
+
+	             <!--  ===============  v divider    ================  -->
+                    <view id="vdiv2" x="${divider1.x+5}" y="${parent.height-110}" width="100%" height="5" bgcolor="#F8F8F8"
+                            onmousedown="dragging.apply()"
+                            onmouseup="dragging.remove()">
+                            <state name="dragging">
+                                <attribute name="y" value="${parent.getMouse('y')}"/>
+                            </state>
+                    </view>
+
+                    <view  width="${divider2.x-divider1.x}" height="${parent.height-vdiv2.y}" x="${divider1.x+5}" y="${vdiv2.y+5}" bgcolor="#F8F8F8">
+                            <simplelayout axis="x" spacing="5"/>
+                            <edittext width="${parent.width-65}" height="${parent.height-50}" multiline="true" resizable="true">message text</edittext>
+                            <button id="send_btn" >Send</button>
+                    </view>
+
+
+	             <!--  ===============  h divider    ================  -->
+                    <view id="divider2" x="${parent.width-180}" width="5" height="100%" bgcolor="#F8F8F8"
+                            onmousedown="dragging.apply()"
+                            onmouseup="dragging.remove()">
+                            <state name="dragging">
+                                <attribute name="x" value="${parent.getMouse('x')}"/>
+                            </state>
+                    </view>
+                    
+	             <!--  ===============   right pane    ================  -->
+                    <view name="right" x="${divider2.x+5}" width="${parent.width-divider2.x-10}"  height="100%" bgcolor="#F8F8F8">
+                           <simplelayout axis="y" spacing="5"/>
+                           
+                           <text x="5">Decks of Cards</text>
+                           <view x="5">
+                                   <simplelayout axis="x" spacing="5"/>
+	                          	<view x="10" width="90" height="120" bgcolor="#E8E8E8"></view>
+	                          	<view>
+	                                  <simplelayout axis="y" spacing="5"/>
+		                           <text>1 of 3</text>
+		                           	      <view>
+		                                  		<simplelayout axis="x" spacing="2"/>
+       	                                  		<button width="24">&lt;</button>
+       	                                  		<button width="24">&gt;</button>
+       	                                  </view>
+       	                                  <button width="50">Draw</button>
+	                          	</view>
+	                    </view>
+	      	             <swatchview bgcolor="#F8F8F8" />
+	      	             
+	      	             <text x="5">Hand of Cards</text>
+	                    <view x="5">	                         
+                                   <simplelayout axis="x" spacing="5"/>
+                                     <tabslider width="90" x="0" y="0"
+					             height="240"
+					             spacing="0" slideduration="150">
+					    <tabelement text="Deck1Card1"/>
+					    <tabelement text="Deck2Card1"/>
+					    <tabelement text="Deck3Card2"/>
+					    <tabelement text="Deck3Card4"/>
+					    <tabelement text="Deck3Card5"/>
+					  </tabslider>
+	                          	<view>
+	                                  <simplelayout axis="y" spacing="5"/>
+		                           <text>1 of 5</text>
+             	                           <button width="50">Discard</button>
+       	                           <button width="50">Play</button>
+	                         </view>
+	                    </view>
+	                    <swatchview bgcolor="#F8F8F8" />
+	                    
+	                    <view y="${canvas.height-240}">
+		                    <simplelayout axis="y" spacing="5"/>
+		             		<text x="5">Dice</text>
+		             		<view x="5" y="500" width="140" height="80" bgcolor="#E8E8E8"></view>
+		             </view> 
+	                    <swatchview bgcolor="#F8F8F8" />
+		             <button x="10" y="${canvas.height-130}" width="80">End Turn</button>    
+                    </view>
+
+               </tabpane>
+            </tabs>
+        </view>
+   	</view>
+</canvas>

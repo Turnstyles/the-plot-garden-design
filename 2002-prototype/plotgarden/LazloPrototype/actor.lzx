@@ -1,0 +1,25 @@
+
+<class name="actor" id="char01" 	
+		x="${this.logicalx*(mapscale/30)}" 
+		y="${this.logicaly*(mapscale/30)}" 
+		resource="characters/ch01_sil.swf"
+		xscale="${mapscale/30}" 
+		yscale="${mapscale/30}" 
+		height="${40*(mapscale/30)}" 
+		width="${40*(mapscale/30)}"
+			
+			
+     		onmousedown="dragging.apply()"
+     		onmouseup="dragging.remove(); stop()">
+
+
+     		<attribute name="logicalx" value="20"/>
+     		<attribute name="logicaly" value="20"/>
+     		<attribute name="mapscale" value="50"/>
+     		
+     		<dragstate name="dragging"/>
+     		<method name="stop">	
+			this.setAttribute("x", "${parent.getMouse('x')+10}");
+               	this.setAttribute("y", "${parent.getMouse('y')+20}");     
+      		</method>
+ </class> 

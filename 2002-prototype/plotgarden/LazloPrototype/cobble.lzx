@@ -1,0 +1,20 @@
+<!--=======================================================================-->
+<!--                                                                       -->
+<!-- cobble.lzx                                                       -->
+<!--                                                                       -->
+<!--                                                                       -->
+<!--=======================================================================-->
+
+<canvas height="600" width="600"> 
+	<resource name="cobble" src="cobblestone.swf" />
+
+		<view name="map" x="0" y="0" onclick="this.tilt.doStart()">
+			<animatorgroup name="tilt" start="false" relative="true" process="simultaneous">
+				<animator name="tiltr" attribute="rotation" to="17" duration="1000"/>
+				<animator name="tilty" attribute="yscale" to="1" duration="1000"/>
+				<animator name="tiltx" attribute="xscale" to="3" duration="1000"/>
+			</animatorgroup>
+			<view resource="cobble" x="0" y="0" />
+		</view>
+	<text>The Plot Garden</text>		
+</canvas>

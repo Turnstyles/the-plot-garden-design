@@ -1,0 +1,76 @@
+<library>
+    <dataset name="inspectors">
+        <inspector>
+            <name>Tina Flarabol</name>
+            <description>Provincial music-hall star. Owner of fashionable supper club Nurse Cousin by marriage.</description>
+            <portrait>ch01.png</portrait>
+            <mapicon>01</mapicon>
+            <faceicon>01</faceicon>
+        </inspector>
+        <inspector>
+            <name>Inspector Dirgeible</name>
+            <description>A cautious man</description>
+            <portrait>02</portrait>
+        </inspector>
+        <inspector>
+            <name>Sausage Brain Brian</name>
+            <description>Always thinking</description>
+            <portrait>03</portrait>
+        </inspector>
+        <inspector>
+            <name>Floyd The Peeper</name>
+            <description>Always Exploring</description>
+            <portrait>04</portrait>
+        </inspector>
+        <inspector>
+            <name>Inspector Gadget</name>
+            <description>Always inventing</description>
+            <portrait>05</portrait>
+        </inspector>
+        <inspector>
+            <name>Johnny Onthespot</name>
+            <description>Always helping</description>
+            <portrait>06</portrait>
+        </inspector>                
+        <inspector>
+            <name>Master Ho</name>
+            <description>Always understanding</description>
+            <portrait>07</portrait>
+        </inspector>
+        <inspector>
+            <name>Florid Roi</name>
+            <description>a joy</description>
+            <portrait>08</portrait>
+        </inspector>
+        <inspector>
+            <name>Ignats</name>
+            <description>a joy</description>
+            <portrait>09</portrait>
+        </inspector>
+        <inspector>
+            <name>Large Marge</name>
+            <description>a joy</description>
+            <portrait>10</portrait>
+        </inspector>
+        <inspector>
+            <name>Madamn Damnitall</name>
+            <description>a joy</description>
+            <portrait>11</portrait>
+        </inspector>
+        <inspector>
+            <name>The Humble Postman</name>
+            <description>a joy</description>
+            <portrait>12</portrait>
+        </inspector>
+        <inspector>
+            <name>Hoopla the Mystic</name>
+            <description>a joy</description>
+            <portrait>13</portrait>
+        </inspector>
+        <inspector>
+            <name>Dogbowl</name>
+            <description>the hoople</description>
+            <portrait>14</portrait>
+        </inspector>
+    </dataset>
+</library>
