@@ -30,7 +30,7 @@ Maybe 1-4 players
 
 The ability when setting up the hosting parameters to choose 
   - A Story Type (Murder Mystery, Lovecraftian, Gothic Horror)
-  - Plots - where dark cults is a 2 person plot called "live vs death" 
+  - Plots - where dark cults is a 2 person plot called "life vs death" 
   - Story Arcs (allowable card sequences - small and large, subplots or not)
   - Plot Elements
   - Characters Art or Media Elements (Soundscapes and other sound types for each card type)
@@ -64,7 +64,7 @@ register => login => choose character => invite others => play sequence
 tie to the wysiwyg 
 record and upload a video
 
-a go postgres service on heroku
+serverside service and postgress db, (go or python with json:api or grails with graphql?)
 
 a deck of typed cards from dark cults
 
