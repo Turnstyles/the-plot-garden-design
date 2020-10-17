@@ -2,6 +2,23 @@
 
 Be a little more flexible with our version, though. When players draw the card, they can select the type from amongst a few native choices to that card. This is a good mechanic, the type of thing you want: it adds a skill/planning element to the game, without contrived numbers/victory conditions.
 
+I agree, but think it should be for V2 as this creates the need for us to determine what those decks are. Otherwise the life player just chooses an Escape card right away and there is always a way to escape.
+
+The composition of deck types and cards within the deck is definitely the challenge of v2. V1 should just be creating the pages and the interface elements to do a 1v1 dark cults game.
+
+Grammar
+   - start   -> a, d, l, t
+   - a  -> p -> a, d, l, t
+   - d       -> d, e1, e2, s
+   - c1      -> e1, e2
+   - c2 -> p -> a, d, l
+   - l       -> a, d, t
+   - o       -> a, c1, c2, d, t
+   - t       -> c1, c2, s, t
+   - s       -> Safe
+   - e1      -> Death
+   - e2      -> Escape!
+   
 # P (Pace cards, special)
 
 ## (If a card is followed by PACE, that means it MUST be followed by a Pace card before one of the other options)

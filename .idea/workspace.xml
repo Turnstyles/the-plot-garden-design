@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41e0c608-0b32-4736-b3db-0980c25fe368" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/notes/other-games.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/other-games.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/basic-components.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/basic-components.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/dark-cults.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/dark-cults.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/design" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/deep-background" />
@@ -55,7 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599165838576</updated>
       <workItem from="1599165840441" duration="4225000" />
-      <workItem from="1602945348763" duration="4953000" />
+      <workItem from="1602945348763" duration="8051000" />
+      <workItem from="1602958078364" duration="1685000" />
     </task>
     <task id="LOCAL-00001" summary="Add a folders for background references, fonts and design ideas">
       <created>1599166351456</created>
@@ -99,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602951104530</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="notes on notes">
+      <created>1602951679268</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602951679268</updated>
+    </task>
+    <task id="LOCAL-00008" summary="notes on notes">
+      <created>1602951705370</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602951705370</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,16 +133,17 @@
     <MESSAGE value="add todo list" />
     <MESSAGE value="Update readme with v1,v2 and v3 - move ducats section into it's own folder with it own page for ideas" />
     <MESSAGE value="update server side possibilities and a spelling mistake" />
-    <option name="LAST_COMMIT_MESSAGE" value="update server side possibilities and a spelling mistake" />
+    <MESSAGE value="notes on notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="notes on notes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="148" y="23" key="CommitChangelistDialog2" timestamp="1602951104372">
+    <state x="148" y="23" key="CommitChangelistDialog2" timestamp="1602951705198">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="148" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1602951104372" />
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1602950852471">
+    <state x="148" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1602951705198" />
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1602951712509">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1602950852471" />
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1602951712509" />
   </component>
 </project>

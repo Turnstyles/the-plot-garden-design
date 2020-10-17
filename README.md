@@ -7,7 +7,9 @@ When setting up the game you can choose between telling the story via text and i
 
 You can end up with a small book or a video of a story being told based on that choice
 
-Really good ones (by rating) can be highlighted and possibly even sold on RPGTheater
+Use the small book dimentions to determine layouts and media sizes.
+
+Really good ones (by plot and by rating) can be highlighted and possibly even sold on RPGTheater
 
 ## V1
 
