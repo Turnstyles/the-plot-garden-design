@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41e0c608-0b32-4736-b3db-0980c25fe368" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/notes/other-games.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/other-games.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1h15cRoBUmDDP5NEUxObIhoC5ta" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/deep-background" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41e0c608-0b32-4736-b3db-0980c25fe368" name="Default Changelist" comment="" />
+      <created>1599165838576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599165838576</updated>
+      <workItem from="1599165840441" duration="4225000" />
+      <workItem from="1602945348763" duration="4953000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add a folders for background references, fonts and design ideas">
+      <created>1599166351456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599166351456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update readme">
+      <created>1599167229479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599167229479</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update readme, add a payment possibility">
+      <created>1599187181217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599187181217</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add todo list">
+      <created>1599283077658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599283077658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update readme with v1,v2 and v3 - move ducats section into it's own folder with it own page for ideas">
+      <created>1602950842214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602950842214</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update server side possibilities and a spelling mistake">
+      <created>1602951104530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602951104530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add a folders for background references, fonts and design ideas" />
+    <MESSAGE value="update readme" />
+    <MESSAGE value="update readme, add a payment possibility" />
+    <MESSAGE value="add todo list" />
+    <MESSAGE value="Update readme with v1,v2 and v3 - move ducats section into it's own folder with it own page for ideas" />
+    <MESSAGE value="update server side possibilities and a spelling mistake" />
+    <option name="LAST_COMMIT_MESSAGE" value="update server side possibilities and a spelling mistake" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="148" y="23" key="CommitChangelistDialog2" timestamp="1602951104372">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="148" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1602951104372" />
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2" timestamp="1602950852471">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="283" y="135" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1602950852471" />
+  </component>
+</project>
