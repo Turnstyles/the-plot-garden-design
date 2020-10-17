@@ -1,6 +1,6 @@
 # Visual Design
 
-- I think the aesthetic should be very minimalist, largely black screen, almost inspired by text-based role playing games. This puts much more emphasis on imagination and leaves room for it. A more concrete aesthetic/visual design probably funnels the imagined possibilities and funnels the appeal.
+- I think the aesthetic should be very minimalist, largely black(cw: agreed but I think white, focus on easy to print) screen, almost inspired by text-based role playing games. This puts much more emphasis on imagination and leaves room for it. A more concrete aesthetic/visual design probably funnels the imagined possibilities and funnels the appeal.
 
 # Setting/Scenario
 
