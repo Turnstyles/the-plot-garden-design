@@ -39,3 +39,7 @@ If nobody or everybody finds the correct card, the storyteller scores 0, and eac
 [https://boardgamegeek.com/boardgame/175324/fog-love](https://boardgamegeek.com/boardgame/175324/fog-love)
 
 Interesting and unique one. Not really what we're currently looking for, but good to keep in mind. A role-playing game in the strictest sense of the word, where you make choices based on the personality that you've laid out for yourself. They seem to do a good job of gamifying elements of relationships and storytelling—you have a destiny/goal of a certain balance of "traits" within the relationship, and each event gives you an opportunity to develop or tear down current traits of your character and of the relationship. They do a good job of corresponding these personality traits to concrete storytelling actions/responses. A different kind of game, but an interesting kind to consider.
+
+## Alien RPG
+
+The Alien RPG folk have added story cards to their system which also breaks game sessions down to acts and gives each character an agenda. Haven't looked into the details of this yet but watch this space.
