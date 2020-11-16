@@ -114,6 +114,7 @@ Story
     deck (the deck id to be used, to start it's the "Life vs Death" deck
     description (prefilled with deck description, but can be changed by the host before sending the invite)
     start_card (each deck should have a set of start cards to chose from)
+    medium ('text' or 'video')
     status (pending, current_turn, complete)
 
 ----------------
@@ -145,5 +146,8 @@ Invitation
     message
     host (id of the host)
     invitee (id of th invitee)
+    medium ('text' or 'video')
     date_sent
     status (pending, accepted)
+
+Each turn can have story text and story video, but the default type is chosen by the host when it sends the invitation

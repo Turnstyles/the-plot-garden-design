@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e3ba7fb-23f1-48a5-ac6b-7c4473cf2bcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design/schema.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/schema.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design/schema.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <workItem from="1600042007711" duration="2845000" />
       <workItem from="1601747760670" duration="2634000" />
       <workItem from="1603654618643" duration="1245000" />
-      <workItem from="1605527059200" duration="5282000" />
+      <workItem from="1605527059200" duration="6054000" />
     </task>
     <task id="LOCAL-00001" summary="Add 2002 prototype">
       <created>1600042148877</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603667056690</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add schema">
+      <created>1605532395472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605532395472</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,20 +108,21 @@
     <MESSAGE value="add some feedback to notes" />
     <MESSAGE value="remove gorey font and edit screenshot names" />
     <MESSAGE value="add screenshots of design thumbs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add screenshots of design thumbs" />
+    <MESSAGE value="add schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="add schema" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1692" y="40" key="CommitChangelistDialog2" timestamp="1603667056585">
+    <state x="1692" y="40" key="CommitChangelistDialog2" timestamp="1605532395339">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1692" y="40" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1603667056585" />
+    <state x="1692" y="40" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1605532395339" />
     <state x="858" y="500" key="MultipleFileMergeDialog" timestamp="1603666997666">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="858" y="500" key="MultipleFileMergeDialog/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1603666997666" />
-    <state x="1434" y="471" key="Vcs.Push.Dialog.v2" timestamp="1603667073714">
+    <state x="1434" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605532418300">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1434" y="471" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1603667073714" />
+    <state x="1434" y="471" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1605532418300" />
   </component>
 </project>
