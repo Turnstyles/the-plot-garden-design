@@ -145,7 +145,7 @@ Invitation
     name (prefilled with the code of the deck and the name of the invitee, but customizable by the host before sending)
     message
     host (id of the host)
-    invitee (id of th invitee)
+    invitee (id of the invitee)
     medium ('text' or 'video')
     date_sent
     status (pending, accepted)
