@@ -1,0 +1,149 @@
+----------------
+User
+----------------
+    id
+    first_name
+    last_name
+    nickname
+    email
+    password
+    roles
+    has many friends
+    has many stories
+    has many invites
+
+All users have a session, users with roles login and receive bearer tokens with JWT's
+friends, stories and invites are just sets of ids
+
+----------------
+Role
+----------------
+    id
+    name
+
+(root,admin,host,player) a user can have no role in which case it is public
+A host is a player who has sent out an invite to another player and thus owns a story
+In regards to permission, one must be a host, admin or root to delete a story
+
+----------------
+Deck
+----------------
+    id
+    code
+    name
+    description
+    has many card_types
+    has many cards
+
+code is the short name or label of the Card type and can be used for an icon
+code should consist only of lowercase letters, numbers and dashes
+
+card_types and cards are just a set of id's
+
+card_types possibilities determine the grammar
+
+The demo game of Dark Cults like is an example of a deck
+it's name is Life vs Death and has 2 profiles which are players
+
+----------------
+CardType
+----------------
+    id
+    code
+    name
+    description
+    possibilities
+
+code is the short name or label of the Card type
+for example the code for Start might be S in some instances
+the code can also be used as the filename for any icon
+so the icon for start in the above example would be s.png
+code should consist only of lowercase letters, numbers and dashes
+
+
+possibilities are a set of cards that are permissible after this card type
+for example using names
+start -> location, object, atmosphere, event-1
+or using codes instead of names
+S -> L, O, A, E1
+
+In future versions, possibilities might become much more advanced and have story arcs, sub-plots and the like
+
+----------------
+Card
+----------------
+    id
+    code
+    name
+    description
+    face
+    backface
+    x
+
+    code is a short name that can be used as either a label or a file image
+    code should consist only of lowercase letters, numbers and dashes
+
+    face and backface are for images and should consist only of lowercase letters, numbers and dashes
+
+    x - a field that can be used to customize the use of a card
+    for example an atmosphere card could use the x field to put the filename of an audio clip to play with it
+    an x value should consist only of lowercase letters, numbers and dashes
+
+    In future versions x will be replaced by a more formal way of extending CardTypes and Cards by deck creators
+
+----------------
+Profile
+----------------
+    id
+    name
+    nickname
+    description
+    avatar
+    role
+
+    avatar is a url to an image, to start we'll have a public list of images that they choose from
+    which will have a set of demon and angel images
+    but at some point this could be any image on the internet
+    role in the first version of the game can be 'life' or 'death'
+
+----------------
+Story
+----------------
+    id
+    name
+    deck (the deck id to be used, to start it's the "Life vs Death" deck
+    description (prefilled with deck description, but can be changed by the host before sending the invite)
+    start_card (each deck should have a set of start cards to chose from)
+    status (pending, current_turn, complete)
+
+----------------
+Turn
+----------------
+    id
+    code
+    name
+    story_id
+    player_id
+    card_played
+    story_text
+    story_video
+
+----------------
+Lobby
+----------------
+    id
+    name
+    description
+    messages
+    has many players
+
+----------------
+Invitation
+----------------
+    id
+    name (prefilled with the code of the deck and the name of the invitee, but customizable by the host before sending)
+    message
+    host (id of the host)
+    invitee (id of th invitee)
+    date_sent
+    status (pending, accepted)

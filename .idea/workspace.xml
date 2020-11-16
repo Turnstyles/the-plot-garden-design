@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e3ba7fb-23f1-48a5-ac6b-7c4473cf2bcd" name="Default Changelist" comment="" />
+    <list default="true" id="7e3ba7fb-23f1-48a5-ac6b-7c4473cf2bcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/design/schema.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,9 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1hTjWHVVBZ7lGm5TzFT0xiK47Bz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +38,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/design" />
       <recent name="$PROJECT_DIR$/2002-prototype" />
     </key>
   </component>
@@ -45,7 +52,8 @@
       <updated>1600042006372</updated>
       <workItem from="1600042007711" duration="2845000" />
       <workItem from="1601747760670" duration="2634000" />
-      <workItem from="1603654618643" duration="935000" />
+      <workItem from="1603654618643" duration="1245000" />
+      <workItem from="1605527059200" duration="5282000" />
     </task>
     <task id="LOCAL-00001" summary="Add 2002 prototype">
       <created>1600042148877</created>
@@ -68,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601747912094</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove gorey font and edit screenshot names">
+      <created>1603666978353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603666978353</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add screenshots of design thumbs">
+      <created>1603667056690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603667056690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,16 +100,21 @@
     <MESSAGE value="Add 2002 prototype" />
     <MESSAGE value="add some feedback to notes" />
     <MESSAGE value="remove gorey font and edit screenshot names" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove gorey font and edit screenshot names" />
+    <MESSAGE value="add screenshots of design thumbs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add screenshots of design thumbs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1416" y="325" key="CommitChangelistDialog2" timestamp="1601747911900">
+    <state x="1692" y="40" key="CommitChangelistDialog2" timestamp="1603667056585">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1416" y="325" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1601747911900" />
-    <state x="1434" y="471" key="Vcs.Push.Dialog.v2" timestamp="1601747992348">
+    <state x="1692" y="40" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1603667056585" />
+    <state x="858" y="500" key="MultipleFileMergeDialog" timestamp="1603666997666">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1434" y="471" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1601747992348" />
+    <state x="858" y="500" key="MultipleFileMergeDialog/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1603666997666" />
+    <state x="1434" y="471" key="Vcs.Push.Dialog.v2" timestamp="1603667073714">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1434" y="471" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1603667073714" />
   </component>
 </project>
