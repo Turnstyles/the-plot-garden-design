@@ -3,6 +3,155 @@
   <component name="ChangeListManager">
     <list default="true" id="7e3ba7fb-23f1-48a5-ac6b-7c4473cf2bcd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/angels/2256667aa960fe76158b9467e295e635.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/angels/2256667aa960fe76158b9467e295e635.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/angels/553d66c5fc15bcbbef58b74fd8242a66.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/angels/553d66c5fc15bcbbef58b74fd8242a66.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/angels/717Kadx7j0L._AC_SL1024_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/angels/717Kadx7j0L._AC_SL1024_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/angels/Paradise_Lost_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/angels/Paradise_Lost_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/angels/angel-2915060__340.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/angels/angel-2915060__340.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/angels/dorepl04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/angels/dorepl04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/angels/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/angels/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-cleon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-cleon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-dr-esophogus.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-dr-esophogus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-emma.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-emma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-hey.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-hey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-lars.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-lars.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-lynda.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-lynda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-marcie.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-marcie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-mcgurk-flynn.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-mcgurk-flynn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-mol.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-mol.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-robin.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-robin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-shroud.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-shroud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/character-uncle-eddie.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/character-uncle-eddie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch01.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch01_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch01_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch01_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch01_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch01_sil.fla" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch01_sil.fla" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch01_sil.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch01_sil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch01_sil.swf" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch01_sil.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch02.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch02_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch02_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch02_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch02_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch02_sil.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch02_sil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch03.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch03_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch03_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch03_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch03_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch03_sil.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch03_sil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch04.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch04_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch04_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch04_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch04_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch04_sil.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch04_sil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch05.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch05_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch05_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch05_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch05_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch05_sil.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch05_sil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch06.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch06_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch06_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch06_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch06_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch06_sil.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch06_sil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch07.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch07_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch07_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch07_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch07_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch07_sil.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch07_sil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch08.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch08_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch08_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch08_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch08_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch08_sil.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch08_sil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch09.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch09_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch09_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch09_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch09_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch10.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch10_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch10_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch10_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch10_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch11.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch11_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch11_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch11_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch11_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch12.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch12_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch12_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch12_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch12_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch13.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch13_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch13_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch13_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch13_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch14.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch14_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch14_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch14_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch14_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch15.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch16.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch16_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch16_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch16_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch16_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch17.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch17_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch17_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch17_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch17_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch18.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch18_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch18_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch18_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch18_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch19.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch19_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch19_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch19_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch19_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch20.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch20_face.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch20_face.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/ch20_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/ch20_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/constrain.lzx" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/constrain.lzx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/characters/pspbrwse.jbf" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/characters/pspbrwse.jbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/devils/avatars.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/devils/avatars.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.26.46 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.26.46 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.26.53 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.26.53 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.26.57 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.26.57 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.27.03 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.27.03 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.27.08 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.27.08 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.27.11 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.27.11 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.27.18 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.27.18 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.27.23 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.27.23 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.27.29 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.27.29 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.27.40 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.27.40 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.27.57 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.27.57 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.28.06 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.28.06 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.28.23 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.28.23 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.28.32 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.28.32 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/eds_oast/Screen Shot 2016-12-09 at 10.28.37 AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/eds_oast/Screen Shot 2016-12-09 at 10.28.37 AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/gate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/house.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/house.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/plot-garden-notes.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/plot-garden-notes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/plot-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/plot-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/plotarc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/plotarc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/012-Seal-of-Sitri-q100-1367x1376.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/012-Seal-of-Sitri-q100-1367x1376.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/062-Seal-of-Volac-q100-1394x1366.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/062-Seal-of-Volac-q100-1394x1366.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/225px-Paimon_Seal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/225px-Paimon_Seal.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/Naberius.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/Naberius.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/Seal of Andromalius by Deoin.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/Seal of Andromalius by Deoin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/Selo29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/Selo29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/seal1.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/seal1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/seal2.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/seal2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/seal3.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/seal3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/seal4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/seal4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/seal5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/seal5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/seal6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/seal6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/sigils/seal87.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/sigils/seal87.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/PREVIEW.PIX" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/PREVIEW.PIX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/cobble.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/cobble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/pspbrwse.jbf" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/pspbrwse.jbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture1.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture1.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture10.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture10.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture11.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture11.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture12.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture12.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture13.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture13.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture14.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture14.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture15.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture15.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture16.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture16.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture17.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture17.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture18.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture18.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture19.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture19.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture2.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture2.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture3.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture3.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture4.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture4.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture5.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture5.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture6.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture6.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture7.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture7.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture8.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture8.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/textures/texture9.GIF" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/textures/texture9.GIF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/title-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/title-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/turnstyles_logo_v1.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/turnstyles_logo_v1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/plot/turnstyles_logo_v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/design/assets/turnstyles_logo_v2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/schema.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design/schema.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +177,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/design/plot/sigils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,7 +188,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/design/plot/sigils" />
+      <recent name="$PROJECT_DIR$/design" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/design/plot/characters" />
       <recent name="$PROJECT_DIR$/design" />
       <recent name="$PROJECT_DIR$/2002-prototype" />
     </key>
@@ -56,7 +211,8 @@
       <workItem from="1603654618643" duration="1245000" />
       <workItem from="1605527059200" duration="6211000" />
       <workItem from="1605984696986" duration="935000" />
-      <workItem from="1605989642051" duration="1784000" />
+      <workItem from="1605989642051" duration="3949000" />
+      <workItem from="1606297467255" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="Add 2002 prototype">
       <created>1600042148877</created>
@@ -114,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605533822333</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bring in some character scans">
+      <created>1605993549412</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605993549412</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add sigils">
+      <created>1605993707687</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605993707687</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,20 +299,22 @@
     <MESSAGE value="add schema" />
     <MESSAGE value="account for choosing text or video during the invitation process" />
     <MESSAGE value="type-o" />
-    <option name="LAST_COMMIT_MESSAGE" value="type-o" />
+    <MESSAGE value="bring in some character scans" />
+    <MESSAGE value="add sigils" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sigils" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1629" y="40" key="CommitChangelistDialog2" timestamp="1605533822232">
+    <state x="1620" y="40" key="CommitChangelistDialog2" timestamp="1605993707583">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1629" y="40" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1605533822232" />
+    <state x="1620" y="40" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1605993707583" />
     <state x="858" y="500" key="MultipleFileMergeDialog" timestamp="1603666997666">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="858" y="500" key="MultipleFileMergeDialog/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1603666997666" />
-    <state x="1434" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605533838142">
+    <state x="1434" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605993722849">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1434" y="471" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1605533838142" />
+    <state x="1434" y="471" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1605993722849" />
   </component>
 </project>

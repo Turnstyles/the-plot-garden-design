@@ -116,6 +116,7 @@ Story
     start_card (each deck should have a set of start cards to chose from)
     medium ('text' or 'video')
     status (pending, current_turn, complete)
+    has many turns
 
 ----------------
 Turn
